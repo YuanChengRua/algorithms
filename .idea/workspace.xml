@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac3d6cb2-7612-4167-9eca-8d9c7677e659" name="Changes" comment="finish testing">
-      <change afterPath="$PROJECT_DIR$/hashmap.py" afterDir="false" />
+    <list default="true" id="ac3d6cb2-7612-4167-9eca-8d9c7677e659" name="Changes" comment="hashmap learning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,10 +38,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.hashmap">
+  <component name="RunManager" selected="Python.lab1">
     <configuration name="array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,6 +76,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hashmap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lab1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../pythonProject/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Week_1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Week_1/lab1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,6 +147,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.lab1" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.array" />
+      <item itemvalue="Python.hashmap" />
+      <item itemvalue="Python.select_sort" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.hashmap" />
@@ -198,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642039983769</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hashmap learning">
+      <created>1642052619141</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1642052619141</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +250,7 @@
     <MESSAGE value="create algorithm" />
     <MESSAGE value="test" />
     <MESSAGE value="finish testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish testing" />
+    <MESSAGE value="hashmap learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashmap learning" />
   </component>
 </project>
