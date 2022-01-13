@@ -10,7 +10,7 @@ def binary_search(list, target):
         elif list[midpoint] < target:
             first = midpoint + 1
         else:
-            last = midpoint - 2
+            last = midpoint - 1
 
     return None  # if target not in the list
 # only use the original list, so the space complexity is O(1) (constant), time complexity O(nlogn)
