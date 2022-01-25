@@ -47,3 +47,29 @@ parents['a'] = 'start'
 parents['b'] = 'start'
 parents['fin'] = None
 
+node = find_lowest_cost_node(costs)  # According to the costs hash, we find the cheapest node in the costs hash
+processed = []
+while node is not None:
+    cost = costs[node]  # check current node's cost
+    neighbors = graph[node]  # current node's neighbors
+
+    for n in neighbors.keys():
+        new_cost = cost + neighbors[n]  # temp sum in equal to the current cost + its neighbor's cost
+        if cost[n] > new_cost:  # if the cost of current node is higher than temp_sum, we update the current cost
+            cost[n] = new_cost
+            parents[n] = node  # change this neighbor's parent to the node
+
+    processed.append(node)
+    node = find_lowest_cost_node(costs)
+
+def find_lowest_cost_node(costs):
+    lowest_cost = float('inf')
+    lowest_cost_node = None
+    for node in costs:
+        cost = costs[node]
+        if cost < lowest_cost and node not in processed:
+            lowest_cost = cost
+            lowest_cost_node = node
+
+    return lowest_cost_node
+
